@@ -1,4 +1,4 @@
-const depthFS(root) => {
+const depthFS= (root) => {
     if(root === null) return [];
     const leftNodes = depthFS(root.left);
     const rightNodes = depthFS(root.right);
