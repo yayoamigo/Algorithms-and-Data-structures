@@ -12,4 +12,4 @@ const howSum = (targetSum: number, numbers: number[], memo: {}): number[] | null
     }
     memo[targetSum] = null;
     return null;
-}
+};
